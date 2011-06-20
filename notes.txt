@@ -1,0 +1,1 @@
+http://openclassroom.stanford.edu/MainFolder/courses/MachineLearning/exercises/ex9materials/kmeans.m
