@@ -1,0 +1,28 @@
+# terribly stereotyping, ...
+# alice sterotypeis 60, likes gardening, pensions, studies french
+# bobis 75, war films, trouser shopping, charlie chaplin
+# charlie is 15, likes explosions, loud music, 
+# denise, 25; babies, makeup, jobs
+# eric, 50; cars, rugby, football, alt. comedy
+# 
+0 	garden_shows
+1	plants_science
+2	pensions
+3	money
+4	french_learn
+5	spanish_learn
+6	shopping
+7	explosions
+8	chaplin
+9	rocknoise
+10	tattoos
+11	babystuff
+12	make_up
+13	jobs
+14	cars
+15	rugby
+16	football
+17	alt_comedy
+18	war films
+
+
