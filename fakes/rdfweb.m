@@ -16,8 +16,8 @@ R1 = [
 0       0       0       0       0        0       0       0       0        0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       # 7 michael
 0       0       0       0       0        0       0       0       1        0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 8 sarahm
 0       0       0       0       0        1       0       1       0        0       0       0       1       1       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 9 pldms
-0       0       0       0       0        0       0       0       0        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 10 keiren
-0       0       0       0       0        1       0       0       0        0       0       0       0       0       1       1       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 11 seals
+0       0       0       0       0        0       0       0       0        0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 10 keiren
+0       0       0       0       0        1       0       0       0        1       0       0       0       0       1       1       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 11 seals
 0       0       0       0       0        1       1       0       0        0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       # 12 dajobe
 0       0       0       0       0        1       0       0       1        0       0       0       0       1       0       0       0       0       0       1       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 13 craig
 0       0       0       0       0        1       0       1       1        0       0       0       1       0       1       0       0       0       1       1       0       0       1       0       0       0       0       0       0       1       1       0       0       0       0       0       0       # 14 libby
@@ -47,16 +47,10 @@ R1 = [
 ] ;
 
 for K=1:size(N1)
-  disp("Checking...")
-  disp(K)
-  disp( N1(K,:) )
-  disp( sum(R1(K,:)) )
-  disp("\n")
+  disp(sprintf("Checking person %d named %s. Degree count is %d \n",K, N1(K,:), sum(R1(K,:))    ))
   for J=1:size(N1)
     if (R1(K,J) != R1(J,K) )
-      warning("Asmmetry between")
-      warning( N1(K,:))
-      warning( N1(J,:))
+      warning(sprintf("Asmmetry between %s and %s", N1(K,:),  N1(J,:) ))
     end
   end
 end
@@ -72,27 +66,69 @@ A1 = R1 * -1 # adj. matrix where -1 shows a link
 Z = zeros(N);
 S = abs(sum(A1))
 
-for K = 1:N
-  Z(K,K)=S(K)
-end
-
-LAP = A1+Z;
-
-[V D]=eig(LAP)
-
+# Graph Laplacian repr:
+#for K = 1:N
+#  Z(K,K)=S(K)
+#end
+#LAP = A1+Z;
+#
+#[V D]=eig(LAP)
 #  715 D(2,2)
-spy(R1)
+
+
+# spy(R1)
 #[ignore p]= sort(V(:,2));
 #spy(R1(p,p));
 
-hold on;
-for K=1:length(N1)
- text(0,K, N1(K,:))
-end
+#hold on;
+#for K=1:length(N1)
+# text(0,K, N1(K,:))
+#end
 
 # if you have graphviz wrapper then:
 
-draw_dot(R1)
+#draw_dot(R1)
+
+# CSV generator
+
+GENCSV=false
+# %f float, %d int?
+if GENCSV 
+  for K=1:size(N1)
+    disp(sprintf("%d,%s", K,N1(K,:)))
+  end
+  for K=1:size(N1)
+    disp(sprintf("# edges for person %d named %s. ", K,N1(K,:)) )
+    for J=1:size(N1)
+      if (R1(K,J) == 1)
+        disp(sprintf("%d,%d", K,J))
+      end
+    end
+  end
+end
+
+
+# Generate GDF for Gephi:
+# http://gephi.org/users/supported-graph-formats/gdf-format/
+# 
+disp("nodedef>name VARCHAR,label VARCHAR")
+for K=1:size(N1)
+  disp(sprintf("p%d,%s", K,N1(K,:)))
+end
+disp("edgedef>node1 VARCHAR,node2 VARCHAR")
+for K=1:size(N1)
+  # disp(sprintf("# edges for person %d named %s. ", K,N1(K,:)) )
+  
+  for J=1:size(N1)
+    if (R1(K,J) == 1)
+      disp(sprintf("p%d,p%d", K,J))
+    end
+  end
+end
+
+
+
+
 
 
 # lessons: symmetry (effective) of foaf:knows;  missing isn't broken; open-world assumptions. time/change. 
