@@ -1,1 +1,18 @@
 http://openclassroom.stanford.edu/MainFolder/courses/MachineLearning/exercises/ex9materials/kmeans.m
+
+
+Ok, we dosvd then we try clustering the U values
+
+
+F=U*S(:,1:5)
+
+octave-3.2.3:17> F=[X,Y,Z]
+... could use top 10 or 20 ...
+
+octave-3.2.3:17> [centroid,pointsInCluster,assignment] = myKmeans(F, 5)
+
+octave-3.2.3:16> dlmwrite("helloLibby.txt", assignment, SEP)
+
+octave-3.2.3:21> F2 = U*S(:, 1:20)
+octave-3.2.3:21> [centroid,pointsInCluster,assignment] = myKmeans(F2, 10)
+

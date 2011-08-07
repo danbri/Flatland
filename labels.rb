@@ -4,7 +4,7 @@
 # ./labels.rb > labels.m
 
 puts "PL = { \n"
-f = File.read('programmes.txt')
+f = File.read('data/programmes-b.txt')
 f.each do |x|
   x.chomp!
   x.gsub!(/_/,' ')
