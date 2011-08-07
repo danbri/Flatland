@@ -68,3 +68,11 @@ ans =
 
 
 
+BUGS:
+
+16:45 danbri: hmm is your one missing the row for prog=10?
+16:45 danbri: i'm one film short
+16:46 libby: yeah apears to be
+16:46 danbri: try  egrep '^10' data.txt  
+
+
