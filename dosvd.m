@@ -1,6 +1,5 @@
 
-prompt off;
-
+more off;
 SEP = '\t'
 % M = dlmread('data/data.txt')
 % M misses value for prog=10
