@@ -1,10 +1,26 @@
-more off;
+
+# graph laplacian tests
+
+clf
+more off
+N = 6
+
+# Our Adjacency graph
+# http://en.wikipedia.org/wiki/Adjacency_matrix
+#  
+A1 = [
+       0        -1        0       -1       -1       0   ;
+       -1       0       -1       0       -1       0   ;
+       0       -1       0       0       -1       0   ; 
+       -1       0       0       0       -1       0   ;
+       -1       -1       -1       -1       0       -1  ;
+       0       0       0       0       -1       0 ]
+
 
 # RDFWeb shirt
 # http://swordfish.rdfweb.org/people/libby/rdfweb/tshirts/tshirt5p.jpg
 
-#clf;
-N1 =  readtextfile('rdfwebnames.txt'); # load up our names
+N1 =  readtextfile('rdfwebnames.txt') # load up our names
 # should be symmetric on diagonal; redundant but that helps with QA; some basic consistency checks are below.
 
 R1 = [ 
@@ -19,8 +35,8 @@ R1 = [
 0       0       0       0       0        0       0       0       0        0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       # 7 michael
 0       0       0       0       0        0       0       0       1        0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 8 sarahm
 0       0       0       0       0        1       0       1       0        0       0       0       1       1       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 9 pldms
-0       0       0       0       0        0       0       0       0        0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 10 keiren
-0       0       0       0       0        1       0       0       0        1       0       0       0       0       1       1       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 11 seals
+0       0       0       0       0        0       0       0       0        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 10 keiren
+0       0       0       0       0        1       0       0       0        0       0       0       0       0       1       1       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 11 seals
 0       0       0       0       0        1       1       0       0        0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       # 12 dajobe
 0       0       0       0       0        1       0       0       1        0       0       0       0       1       0       0       0       0       0       1       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       # 13 craig
 0       0       0       0       0        1       0       1       1        0       0       0       1       0       1       0       0       0       1       1       0       0       1       0       0       0       0       0       0       1       1       0       0       0       0       0       0       # 14 libby
@@ -49,98 +65,58 @@ R1 = [
 0       0       0       0       0        0       0       0       0        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       # 37 baker
 ] ;
 
-for K=1:size(N1);
-  #disp(sprintf("Checking person %d named %s. Degree count is %d \n",K, N1(K,:), sum(R1(K,:))    ));
-  for J=1:size(N1);
-    if (R1(K,J) != R1(J,K) );
-      warning(sprintf("Asmmetry between %s and %s", N1(K,:),  N1(J,:) ));
+for K=1:size(N1)
+  disp("Checking...")
+  disp(K)
+  disp( N1(K,:) )
+  disp( sum(R1(K,:)) )
+  disp("\n")
+  for J=1:size(N1)
+    if (R1(K,J) != R1(J,K) )
+      warning("Asmmetry between")
+      warning( N1(K,:))
+      warning( N1(J,:))
     end
   end
 end
 
 if (diag(R1)==zeros)
-  #disp("Diagonal is zero");
+  disp("Diagonal is zero")
 else
-  warning("Non-zero diagonal!");
+  warning("Non-zero diagonal!")
 end
 
-N = length(N1);
-#A1 = R1 * -1 # adj. matrix where -1 shows a link
-#Z = zeros(N);
-#S = abs(sum(A1));
-
-# Graph Laplacian repr:
-#for K = 1:N
-#  Z(K,K)=S(K)
-#end
-#LAP = A1+Z;
-#
-#[V D]=eig(LAP)
-#  715 D(2,2)
-
-
-#spy(R1)
-#hold on;
-#for K=1:length(N1)
-# text(0,K, N1(K,:))
-# text( K,0, N1(K,:), 'Rotation', -90)
-# #plot (10,-1,'x')
-# C = length(N1)
-# line ( [ K, 0 ], [K C  ] ) 
-#end
-
-#[ignore p]= sort(V(:,2));
-#spy(R1(p,p));
-
-
-# if you have graphviz wrapper then:
-
-#draw_dot(R1)
-
-# CSV generator
-
-GENCSV=false;
-# %f float, %d int?
-if GENCSV 
-  for K=1:size(N1)
-    disp(sprintf("%d,%s", K,N1(K,:)))
-  end
-  for K=1:size(N1)
-    disp(sprintf("# edges for person %d named %s. ", K,N1(K,:)) )
-    for J=1:size(N1)
-      if (R1(K,J) == 1)
-        disp(sprintf("%d,%d", K,J))
-      end
-    end
-  end
-end
-
-
-# Generate GDF for Gephi:
-# http://gephi.org/users/supported-graph-formats/gdf-format/
-# 
-#disp("nodedef>name VARCHAR,label VARCHAR")
-#for K=1:size(N1)
-#  disp(sprintf("p%d,%s", K,N1(K,:)))
-#end
-#disp("edgedef>node1 VARCHAR,node2 VARCHAR")
-#for K=1:size(N1)
-#  # disp(sprintf("# edges for person %d named %s. ", K,N1(K,:)) )
-#  
-#  for J=1:size(N1)
-#    if (R1(K,J) == 1)
-#      disp(sprintf("p%d,p%d", K,J))
-#    end
-#  end
-#end
-
-
-#[x y z] = draw_dot(R1,N1);
-#for K=1:length(x)
-#  text(x(K), y(K), N1(K,:))
-#  disp( N1(K,:))
-#end
 
 
 # lessons: symmetry (effective) of foaf:knows;  missing isn't broken; open-world assumptions. time/change. 
 
+# Target Laplacian representation
+# http://en.wikipedia.org/wiki/Laplacian_matrix
+# http://mathworld.wolfram.com/LaplacianMatrix.html
+# 
+L1 = [
+       3        -1        0       -1       -1       0   ;
+       -1       3       -1       0       -1       0   ;
+       0       -1       2       0       -1       0   ; 
+       -1       0       0       2       -1       0   ;
+       -1       -1       -1       -1       5       -1  ;
+       0       0       0       0       -1       1 ]
+ 
+
+Z = zeros(N);
+S = abs(sum(A1))
+
+for K = 1:N
+  Z(K,K)=S(K)
+end
+
+L2 = A1+Z;
+[a,b]=eig(L2)
+
+if L1 == L2
+#  text (10,10, "OK")
+  disp("OK, matrices match.")
+else
+#  text(10,10, "Not OK")
+  warning("NOT OK")
+end

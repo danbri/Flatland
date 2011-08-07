@@ -1,0 +1,56 @@
+
+
+Ok, so ... graphviz stuff from http://www.stanford.edu/~dgleich/demos/matlab/
+http://www.stanford.edu/~dgleich/demos/matlab/random_graphs/erdosreyni.html
+http://csmr.ca.sandia.gov/~dfgleic/
+http://www.slideshare.net/dgleich/presentations
+
+...needs http://www.mathworks.com/matlabcentral/fileexchange/4518
+ which needs io library for textread 
+
+which needs later octave
+
+tried in brew but ultimately hits bug with md5
+
+try prepackaged octave? note that gnuplot likely to break.
+
+
+from graphviz module page, the bug reported is fixed in main dist'n now:
+TellyClub:tmp danbri$ wget http://web.archive.org/web/20041028171904/http://www.owlnet.rice.edu/~nwh/repfug/ode/graph_to_dot.m
+
+
+
+
+
+who --- user space vars
+
+octave-3.2.3:102> names(3,:)
+ans = Alice3
+
+... structure from readtextfile()
+http://www.phon.ucl.ac.uk/courses/spsci/matlab/lect6.html
+
+
+
+[centroid,pointsInCluster,assignment] = myKmeans(all_data,5)
+
+B=U*S(:,1:2)
+[centroid,pointsInCluster,assignment] = myKmeans( B  , 5)
+
+
+
+
+For graphviz
+
+http://octave.sourceforge.net/io/index.html
+http://www.mathworks.com/matlabcentral/fileexchange/4518
+http://www.mathworks.com/matlabcentral/fileexchange/4518-matlab-graphviz-interface/content/draw_dot.m
+
+
+22:10 danbri: Anyone had luck with Octave/Graphviz integration?
+22:11 danbri: I followed the matlab package plus googled some bugfixes, but can't reproduce the behaviour from matlab as shown in http://www.stanford.edu/~dgleich/demos/matlab/random_graphs/erdosreyni.html
+22:12 danbri: here's the graphviz package: http://www.mathworks.com/matlabcentral/fileexchange/4518  
+22:12 danbri: bugfix info: http://www.mathworks.de/matlabcentral/newsreader/view_thread/263130 http://www.stanford.edu/class/msande337/notes/matlab%20tutorial.pdf  maybe also http://octave.1599824.n4.nabble.com/Question-about-short-circuit-operators-td3323547.html
+
+
+

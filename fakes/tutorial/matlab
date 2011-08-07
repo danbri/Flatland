@@ -1,0 +1,1024 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window,b="start";function e(d){this.t={};this.tick=function(d,g,c){c=c!=void 0?c:(new Date).getTime();this.t[d]=[c,g]};this.tick(b,null,d)}var f=new e;a.jstiming={Timer:e,load:f};try{var h=null;a.chrome&&a.chrome.csi&&(h=Math.floor(a.chrome.csi().pageT));h==null&&a.gtbExternal&&(h=a.gtbExternal.pageT());h==null&&a.external&&(h=a.external.pageT);h&&(a.jstiming.pt=h)}catch(i){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/72404e/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length",j='title="',k="string",l="right",m="px; height:",n="px;",o="left",p='id="',q="function",r="float:right;",s="float:left;",t="float:",u="display:inline-block;",v="cursor:hand;",w='class="',x="__duration__",y="MSIE",z="<span ",A=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",B=";",C="6.0",D="', sizingMethod='scale');\"></span><span style=\"padding: ",E='"></span>',F='" ',G=' style="width:',H=" ",I="";function J(c){return document.getElementById(c)}h.byId=J;function K(c){return c.replace(/^\s+|\s+$/g,I)}h.trim=K;
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:I;if(b.indexOf(y)!=-1&&typeof opera=="undefined"){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==C){var a=typeof c==k?J(c):c,c=a.id?p+a.id+F:I,b=a.className?w+a.className+F:I,d=a.title?j+a.title+F:j+a.alt+F,f=u+a.style.cssText;a.align==o&&(f=s+f);a.align==l&&(f=r+f);a.parentElement.href&&(f=v+f);var g=a.currentStyle,M=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),N=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),O=z+c+
+b+d+G+M+m+N+n+f+A+a.src+D+g.paddingTop+H+g.paddingRight+H+g.paddingBottom+H+g.paddingLeft+B+(g.styleFloat?t+g.styleFloat+B:I)+E;h.setTimeout(function(){a.outerHTML=O},1)}}};var L=[],P=0;h.JOT_addListener=function(c,b,d){var a=new String(P++),c={eventName:c,handler:b,compId:d,key:a};L.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<L[i];b++)if(L[b].key==c){L.splice(b,1);break}};h.JOT_removeAllListenersForName=function(c){for(var b=0;b<L[i];b++)L[b].eventName==c&&L.splice(b,1)};
+h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=L[i];for(d=0;d<b&&d<L[i];d++){var f=L[d];if(f&&f.eventName==c)a.listenerCompId=f.compId||I,(f=typeof f.handler==q?f.handler:h[f.handler])&&f(a)}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=!1;
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(d>=1440||d<0)return null;var a=0;d>=60&&(d/=60,a=2);d>=2&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(x,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(x,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"pageSharingId":"jotspot_page","isConsumer":true,"termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"isPublic":true,"serverFlags":{"embeddedEditorUrlPrefix":"/docembed"},"canPublishScriptToAnyone":true,"homePath":"/","sharingId":"jotspot","csiReportUri":"https://gg.google.com/csi","sharingPolicy":"OPENED","isAdsenseEnabled":true,"analyticsAccountId":"","adsensePromoClickedOrSiteIneligible":null,"baseUri":"/site/bcampbellthesis","name":"bcampbellthesis","domain":"defaultdomain","features":{"horizontalNavigationDropdownMenus":true,"kixEditorPageType":false,"autoAdjustMobileViewport":true,"pdfEmbedSupport":false,"docosCommenting":false,"useStandardEmbedsInSidebar":false,"commentsWithoutForms":true,"plpFeedbackButter":true,"pageLevelPermissions":false,"kixServerSideSave":false,"dragDropHierarchy":true,"googleDocsVideoEmbedSupport":true,"plusOneButtonOptions":true,"myMapsInOnePick":true,"horizontalNavigationBar":true,"plusOneButton":false,"newPermissionsUi":false,"newDialogUi":true,"newAdSenseUi":true,"customSystemFooter":true,"maestroEmbedAnonymous":true,"spreadsheetsEmbedLoadRedirect":true,"ieSevenUnsupportedError":false,"photoAlbumsInOnePick":true,"adSensePromo":true,"listPageWithoutForms":true,"pageLevelPermissionInherits":false,"maestroIntegration":true,"subpageNav":false,"autoCompleteSearch":false,"maestroEmbed":true,"editorKeyboardShortcuts":false,"commonSharingUriChange":false,"allowQuotesInLinks":true,"experimental":{"displayEditorLockExceptions":false,"commonSharingExperiment":false},"plpFeedbackDismissLink":false,"webspaceSoftDeletion":true,"kennedyUi":false,"announcementDraftWithoutForms":true,"gvizCharts":false,"autoFillSidebarNavTree":true,"cajaEditorPageType":false,"keyboardShortcuts":true,"accessibleButtons":true,"commonSharing":true,"structuredDataSchemas":false,"webfonts":true},"enableAutoComplete":true,"adsensePublisherId":null,"isStartPageEnabled":false,"domainAnalyticsAccountId":"","siteTitle":"Spectral Theory of Graph Laplacians "};
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/bcampbellthesis/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:6be54c22a784131b","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":2,"title":"Matlab","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"matlab","path":"/matlab","isSiteRtlLocale":false,"parentPath":null};
+webspace.page.breadcrumbs = [{"title":"Matlab","dir":"ltr","path":"/site/bcampbellthesis/matlab","deleted":false}];
+
+
+webspace.editorResources = [
+  'https://ssl.gstatic.com/sites/p/72404e/system/js/trog_edit__en.js',
+  'https://ssl.gstatic.com/sites/p/72404e/system/app/css/trogedit.css',
+  '/site/bcampbellthesis/_/rsrc/1311005436000/system/app/css/editor.css'
+];
+
+webspace.kixEditorResources = [
+  'https://ssl.gstatic.com/sites/p/72404e/system/js/kixembed_editor__en.js',
+  'https://ssl.gstatic.com/sites/p/72404e/system/app/css/kixeditor.css'
+];
+
+var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/72404e/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="Description" content="WIP" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/72404e/system/app/themes/treehouse/standard-css-treehouse-ltr-ltr.css" />
+<style type="text/css">
+          .goog-ws-layout-system-footer {
+            background: #EAF3FD;
+          }
+        </style>
+<link rel="stylesheet" type="text/css" href="/site/bcampbellthesis/_/rsrc/1311005436000/system/app/css/overlay.css?cb=treehouse100%25200goog-ws-left" />
+<title>Matlab - Spectral Theory of Graph Laplacians </title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en">
+<div id="sites-page-toolbar">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="alert" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<h2>
+<a href="https://sites.google.com/site/bcampbellthesis/" dir="ltr">Spectral Theory of Graph Laplacians </a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+<form id="sites-searchbox-form" action="/site/bcampbellthesis/system/app/pages/search">
+<input type="text" onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="jot-ui-searchInput" title="Search" name="q" autocomplete="off" size="20" />
+<input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" />
+<div class="goog-inline-block goog-button goog-button-base sites-convert-button   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div id="sites-searchbox-search-button" class="goog-button-base-content " style="" onclick=""><span id="sites-searchbox-search-button-label">Search this site</span></div></div></div></div></div>
+</form>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed">
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/GetStarted" jotId="wuid:gx:16c34d84e76d7a71" class="sites-navigation-link">Get Started</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/research" jotId="wuid:gx:267d7ef5b3c49027" class="sites-navigation-link">Research</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/reccomended" jotId="wuid:gx:50fc84a83509afd8" class="sites-navigation-link">Reccomended</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/co-clustering" jotId="wuid:gx:308172e0a0b8abfe" class="sites-navigation-link">Co-Clustering</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/bregman-divergence" jotId="wuid:gx:13fd97b6106cced8" class="sites-navigation-link">Bregman Divergence</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/convex-optimization" jotId="wuid:gx:6bcda7bba870617b" class="sites-navigation-link">Convex Optimization</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/diffusion-maps" jotId="wuid:gx:1ace28954cb38cc6" class="sites-navigation-link">Diffusion Maps</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/spectral-analysis-of-complex-laplacian-matrices" jotId="wuid:gx:3317a390de17b0d2" class="sites-navigation-link">Spectral Analysis of Complex Laplacian Matrices</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/agglomerative-clustering" jotId="wuid:gx:6f53e442beb095c2" class="sites-navigation-link">Agglomerative Clustering</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/concentration-of" jotId="wuid:gx:213da2c394a65bfc" class="sites-navigation-link">Concentration Of Measure - Talagrand's Inequality</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/exponential-family" jotId="wuid:gx:73fc1797568e6b05" class="sites-navigation-link">Exponential Family</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/cheegar" jotId="wuid:gx:48b47a05b35a3bc3" class="sites-navigation-link">Cheegar</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/gaph-zeta-functions" jotId="wuid:gx:271726a69a80b2f3" class="sites-navigation-link">Gaph Zeta Functions</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/diffusion-maps" jotId="wuid:gx:1ace28954cb38cc6" class="sites-navigation-link">Diffusion Maps</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/metric-distance-scaling" jotId="wuid:gx:4b9cebe2990265b1" class="sites-navigation-link">Metric Distance Scaling</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/orthogonal-polynomials" jotId="wuid:gx:7217ffde16335608" class="sites-navigation-link">Orthogonal Polynomials</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/spectral-analysis-of-complex-laplacian-matrices" jotId="wuid:gx:3317a390de17b0d2" class="sites-navigation-link">Spectral Analysis of Complex Laplacian Matrices</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/rmt" jotId="wuid:gx:76fc9a1f1c1a91fb" class="sites-navigation-link">RMT</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:6c9846e763018ce1" class="sites-navigation-link">Sitemap</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_7258825109972156" class="sites-embed">
+<h4 class="sites-embed-title">Applications</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div class="current-bg" jotId="wuid:gx:6be54c22a784131b" dir="ltr" style="padding-left: 5px;">Matlab
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/visuali" jotId="wuid:gx:648430121672a589" class="sites-navigation-link">Visualization</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/GetStarted" jotId="wuid:gx:16c34d84e76d7a71" class="sites-navigation-link">Get Started</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2698067733852309" class="sites-embed">
+<h4 class="sites-embed-title">Skills</h4>
+<div class="sites-embed-content sites-sidebar-nav ">
+<ul jotId="navList">
+<li class="nav-first"><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/study-skills" jotId="wuid:gx:2c2ce7dc41911cf7" class="sites-navigation-link">Study Skills</a>
+</div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/bcampbellthesis/GetStarted" jotId="wuid:gx:16c34d84e76d7a71" class="sites-navigation-link">Get Started</a>
+</div></li>
+</ul>
+
+</div>
+</div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Matlab</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><font face="Courier New" size="2">
+<p>N=4096;</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Generate a Winger - GOE</p></font><font face="Courier New" size="2">
+<p>G = randn(N)/sqrt(N); </p>
+<p>A = (G+G')/sqrt(2); </p></font><font color="#228b22" face="Courier New" size="2">%Winger Matrix<p></p></font><font face="Courier New" size="2">
+<p>imagesc(A);I=round(A*255+200);</p>
+<p>imagesc(I,[0 255]); colormap(gray);</p>
+<p>C1=eig(A);</p>
+<p>hist(C1,100);</p>
+<p>C_Epdf1=hist(C1,200);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Sample again from GOE</p></font><font face="Courier New" size="2">
+<p>G = randn(N)/sqrt(N); </p>
+<p>A = (G+G')/sqrt(2);</p>
+<p>C2=eig(A);</p>
+<p>hist(C2,100);</p>
+<p>C_Epdf2=hist(C2,200);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Calculate KL Divergence of E_pdfs</p></font><font face="Courier New" size="2">
+<p>kl = kldivergence (C1,C2);</p>
+<p></p>
+<p>g=C_Epdf1-C_Epdf2;</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Generate Wishart Matrix</p></font><font face="Courier New" size="2">
+<p>G = randn(N,2*N)/sqrt(2*N); </p>
+<p>B = G*G';</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%RMtool from rao requires the symbolic toolbox</p>
+<p>% syms m z</p>
+<p>% LmzA = numden(m-0.5/(1-z)-0.5/(2-z));</p>
+<p>% LmzB = AtimesWish(LmzA,0.5);</p></font><font face="Courier New" size="2">
+<p>C=eig(B);</p>
+<p>max_minus_min_eig=range(C);</p>
+<p>EmpiricalPDF= hist(B,200);</p>
+<p>plot(EmpiricalPDF);</p>
+<p>I=round(B*255+200);</p>
+<p>imagesc(I,[0 255]); colormap(gray);</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%PCA Analysis</p></font><font face="Courier New" size="2">
+<p>stdr = std(A);</p>
+<p>sr = A./repmat(stdr,N,1);</p>
+<p>[coefs,scores,variances,t2] = princomp(sr);</p>
+<p>pca(A);</p>
+<p>C=eig(A);</p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%http://www.stanford.edu/~dgleich/demos/matlab/spectral/spectral.html</p></font><font face="Courier New" size="2">
+<p>clear </p></font><font color="#a020f0" face="Courier New" size="2">all</font><font face="Courier New" size="2">;<p></p>
+<p>N=96;</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% In this segment, we'll plant a partition in a graph, and then use the second smallest eigenvector to find it.</p>
+<p>% As always, the first step is to generate our dataset. In this example, we'll be a little more ambitious and use a larger number of vertices. </p></font><font face="Courier New" size="2">
+<p>x = randperm(N);</p>
+<p>gs = N/2;</p>
+<p>G1 = x(1:gs);</p>
+<p>G2 = x(gs+1:end);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% Decide on the probabilities of edges within each group and between the two groups. </p>
+<p>% Because we are planting a partition, the probabilities of edges between the groups should be much </p>
+<p>% lower than the probability of edges within each group. Suppose that group 1 is a little more tightly connected than group 2.</p></font><font face="Courier New" size="2">
+<p>p_G1 = 0.23;</p>
+<p>p_G2 = 0.43;</p>
+<p>p_Inbetween = 0.04;</p>
+<p>A(G1, G1) = rand(gs,gs) &lt; p_G1;</p>
+<p>A(G2, G2) = rand(N-gs,N-gs) &lt; p_G2;</p>
+<p>A(G1, G2) = rand(gs, N-gs) &lt; p_Inbetween;</p>
+<p>At = triu(A,1);</p>
+<p></p>
+<p>At = At -At';</p>
+<p></p>
+<p>[ w_fdla ] = fdla(sparse(At));</p>
+<p>[ w_fmmc ] = fmmc(Net);</p>
+<p>[ w_md ] = max_deg(A);</p>
+<p>[ w_bc ] = best_const(Net);</p>
+<p>[ w_mh ] = mh(Net);</p>
+<p></p>
+<p></p>
+<p>Dist = zeros(N,N);</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>for</p></font><font face="Courier New" size="2"> i=1:(N-1);<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">for</font><font face="Courier New" size="2"> j=i+1:N;<p></p>
+<p>Dist(i,j) = norm( A(i,:) - A(j,:) );</p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p></font><font color="#0000ff" face="Courier New" size="2">
+<p>end</p></font><font face="Courier New" size="2">;<p></p>
+<p>Dist = Dist + Dist';</p>
+<p>threshold=9;</p>
+<p>Ad = Dist ;</p></font><font color="#228b22" face="Courier New" size="2">%&lt; threshold;<p></p></font><font face="Courier New" size="2">
+<p>Ad = Ad - eye(N);</p>
+<p>m = sum(sum(Ad))/2;</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% find the incidence matrix</p></font><font face="Courier New" size="2">
+<p>Ai = zeros(N,N);</p>
+<p>l = 0;</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>for</p></font><font face="Courier New" size="2"> i=1:(N-1);<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">for</font><font face="Courier New" size="2"> j=i+1:N;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">if</font><font face="Courier New" size="2"> Ad(i,j)&gt;0.5<p></p>
+<p>l = l + 1;</p>
+<p>Ai(i,l) = 1;</p>
+<p>Ai(j,l) = -1;</p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p></font><font color="#0000ff" face="Courier New" size="2">
+<p>end</p></font><font face="Courier New" size="2">;<p></p>
+<p>Ais = sparse(Ai);</p>
+<p></p>
+<p>spy(Ai);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%L = laplacian(A); %BBCREVISIT - where did he get the laplacian</p>
+<p>%from?</p>
+<p>%L= DELSQ (A);</p></font><font face="Courier New" size="2">
+<p>L = del2(A);</p></font><font color="#228b22" face="Courier New" size="2">%L=compute_laplacian(A);%L=compute_combinatorial_laplacian(A);<p></p></font><font face="Courier New" size="2">
+<p>[V D] = eigs(L, 2, </p></font><font color="#a020f0" face="Courier New" size="2">'SA'</font><font face="Courier New" size="2">);<p></p>
+<p>D(2,2);</p></font><font color="#228b22" face="Courier New" size="2">%ans = 46.7158<p></p></font><font face="Courier New" size="2">
+<p>plot(V(:,2), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p>plot(sort(V(:,2)), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p>[ignore p] = sort(V(:,2));</p>
+<p>spy(A(p,p));draw_dot(A(p,p));</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%[ignore p] = sort(V(:,2));</p>
+<p>%spy(A(p,p));</p>
+<p>%Let's do an MDS on the graph adjacency</p></font><font face="Courier New" size="2">
+<p>[points,vaf]=mds(A,4);</p></font><font color="#228b22" face="Courier New" size="2">%metric,iterations,learnrate)<p></p></font><font face="Courier New" size="2">
+<p></p></font><font color="#228b22" face="Courier New" size="2">%D=all_shortest_paths(A);<p></p></font><font face="Courier New" size="2">
+<p>plot(points(:,1),points(:,2));</p>
+<p>[ w_mh ] = mh(A);</p>
+<p>plotgraphBruce(A,points,w_mh);</p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Generation of cluster grapg [my own term ]</p>
+<p>% Three cluseters with a cut between each</p></font><font face="Courier New" size="2">
+<p>clear </p></font><font color="#a020f0" face="Courier New" size="2">all</font><font face="Courier New" size="2">;<p></p>
+<p>N=3*32;</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% In this segment, we'll plant a partition in a graph, and then use the second smallest eigenvector to find it.</p>
+<p>% As always, the first step is to generate our dataset. In this example, we'll be a little more ambitious and use a larger number of vertices. </p></font><font face="Courier New" size="2">
+<p>x = randperm(N);</p>
+<p>gs = N/3;</p>
+<p>G1 = x(1:gs);</p>
+<p>G2 = x(gs+1:2*gs);</p>
+<p>G3= x(2*gs+1:3*gs);</p>
+<p>p_G1 = 0.13;</p>
+<p>p_G2 = 0.43;</p>
+<p>p_G3 = 0.23;</p>
+<p>p_Inbetween = 0.06;</p>
+<p>A(G1, G1) = rand(gs,gs) &lt; p_G1;</p>
+<p>A(G2, G2) = rand(gs,gs) &lt; p_G2;</p>
+<p>A(G3, G3) = rand(gs,gs) &lt; p_G3;</p>
+<p></p>
+<p></p>
+<p>[n1,m1]=size( A(G1, G2));</p>
+<p>[n2,m2]=size( A(G2, G3));</p>
+<p>[n3,m3]=size( A(G3, G1));</p>
+<p></p>
+<p>B_1=rand(gs, gs);B_2=rand(gs, gs);B_3=rand(gs, gs);</p>
+<p>A(G1, G2) = B_1 &lt; p_Inbetween;</p>
+<p>A(G2, G3) = B_2 &lt; p_Inbetween/3;</p>
+<p>A(G3, G1) = B_3 &lt; p_Inbetween/50;</p>
+<p></p>
+<p>A = triu(A,1);</p>
+<p>A = A + A';spy(A);</p>
+<p>L = del2(A);spy(L);</p>
+<p>[V D] = eigs(L, 2, </p></font><font color="#a020f0" face="Courier New" size="2">'SA'</font><font face="Courier New" size="2">);sigma=eig(A);hist(sigma,50);<p></p>
+<p>D(2,2)</p>
+<p>plot(V(:,2), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p>plot(sort(V(:,2)), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);spy(A);</font><font color="#228b22" face="Courier New" size="2">%draw_dot(A);<p></p></font><font face="Courier New" size="2">
+<p>[ignore p] = sort(V(:,2));</p>
+<p>spy(A(p,p));</p>
+<p></p>
+<p>[x y]=draw_dot(A(p,p));</p>
+<p>gplot(A(p,p), [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p>C_coeff=clustering_coefficients((sparse(A)));full(A)</p>
+<p>hist(C_coeff,100);C_mu=mean(C_coeff);</p>
+<p></p>
+<p>Net = SFNG(N+20, 5, A);</p>
+<p>C_coeff=clustering_coefficients(sparse(double(Net)));</p>
+<p>hist(C_coeff,100);C_mu=mean(C_coeff);</p>
+<p></p>
+<p>[x y]=draw_dot(Net);</p>
+<p>gplot(Net, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>[ w_fdla ] = fdla(sparse(A(p,p)));</p>
+<p>[ w_fmmc ] = fmmc(Net);</p>
+<p>[ w_md ] = max_deg(A);</p>
+<p>[ w_bc ] = best_const(Net);</p>
+<p>[ w_mh ] = mh(Net);</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%PL_Equation = PLplot((Net));</p>
+<p>%CNet(Net);</p>
+<p>%Gerneating Erdos Reyni graphs</p></font><font face="Courier New" size="2">
+<p>clear </p></font><font color="#a020f0" face="Courier New" size="2">all</font><font face="Courier New" size="2">;<p></p>
+<p>N=50;</p>
+<p>A = rand(N+20,N+20);</p>
+<p>A = triu(A,1);</p>
+<p>p=log(N+20)/N+20-1/(N+20^2);</p></font><font color="#228b22" face="Courier New" size="2">%.02;%<p></p></font><font face="Courier New" size="2">
+<p>thres_conn=log(N+20)/N+20;</p>
+<p>A = A + A';</p>
+<p>G = A &lt; p;spy(A);draw_dot(A);</p>
+<p>thres_giant = 1/(N+20-1);</p>
+<p>[x y] = draw_dot(G&lt;thres_giant);</p>
+<p>gplot(A&lt;thres_giant, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">) <p></p>
+<p>[x y] = draw_dot(G&lt;thres_conn);</p>
+<p>gplot(G&lt;thres_conn, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">)<p></p>
+<p>C_coeff=clustering_coefficients(sparse(double(A)));spy(sparse(A));</p>
+<p>hist(C_coeff,100);C_mu=mean(C_coeff);</p>
+<p></p>
+<p>n = 1500;</p>
+<p>p = 0.04; </p>
+<p>G = rand(n,n) &lt; p;</p>
+<p>G = triu(G,1);</p>
+<p>G = G + G';</p>
+<p>thres_giant = 1/(n-1);</p>
+<p>[x y] = draw_dot(G);</p>
+<p>gplot(G, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">); <p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Now Const a random G from V -</p>
+<p></p>
+<p>% Given a square matrix M, the goal is to find a vector (with dii &gt; 0)</p>
+<p>% such that ||DMD^{-1}||_F is minimized, where D = diag(d).</p>
+<p>% The problem can be cast as an unconstrained geometric program:</p>
+<p>% minimize sqrt( sum_{i,j=1}^{n} Mij^2*di^2/dj^2 )</p>
+<p>%</p>
+<p>% formulating the problem as a GP</p></font><font face="Courier New" size="2">
+<p>cvx_setup</p>
+<p>cvx_begin </p></font><font color="#a020f0" face="Courier New" size="2">gp<p></p></font><font face="Courier New" size="2">
+<p>variable </p></font><font color="#a020f0" face="Courier New" size="2">d(N)<p></p></font><font face="Courier New" size="2">
+<p>minimize( sqrt( sum( sum( diag(d.^2)*(A.^2)*diag(d.^-2) ) ) ) )</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">% Alternate formulation: norm( diag(d)*abs(M)*diag(1./d), 'fro' )<p></p></font><font face="Courier New" size="2">
+<p>cvx_end</p>
+<p></p>
+<p>A_min_spectral_radius_F=diag(d)*A* inv(diag(d));</p>
+<p>L2=del2(A_min_spectral_radius_F);</p>
+<p>;</p></font><font color="#228b22" face="Courier New" size="2">%d* ( 1 ./ d)';<p></p></font><font face="Courier New" size="2">
+<p>[V2 D2] = eigs(L2, 2, </p></font><font color="#a020f0" face="Courier New" size="2">'SR'</font><font face="Courier New" size="2">);<p></p>
+<p>D2(2,2);</p>
+<p>plot(V2(:,2), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p>plot(sort(V2(:,2)), </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);spy(A_min_spectral_radius_F);<p></p>
+<p>[ignore p] = sort(V2(:,2));</p>
+<p>spy(A_min_spectral_radius_F(p,p));draw_dot(A_min_spectral_radius_F(p,p));</p>
+<p></p>
+<p>hold </p></font><font color="#a020f0" face="Courier New" size="2">on</font><font face="Courier New" size="2">;<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% displaying results</p></font><font face="Courier New" size="2">
+<p>D = diag(d);</p>
+<p>disp(</p></font><font color="#a020f0" face="Courier New" size="2">'The matrix D that minimizes ||DMD^{-1}||_F is: '</font><font face="Courier New" size="2">);<p></p>
+<p>disp(D);</p>
+<p>disp(</p></font><font color="#a020f0" face="Courier New" size="2">'The minimium Frobenius norm achieved is: '</font><font face="Courier New" size="2">);<p></p>
+<p>disp(norm(D*M*inv(D),</p></font><font color="#a020f0" face="Courier New" size="2">'fro'</font><font face="Courier New" size="2">));<p></p>
+<p>disp(</p></font><font color="#a020f0" face="Courier New" size="2">'while the Frobunius norm of the original matrix M is: '</font><font face="Courier New" size="2">);<p></p>
+<p>disp(norm(M,</p></font><font color="#a020f0" face="Courier New" size="2">'fro'</font><font face="Courier New" size="2">));<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%BGL %%%%%%%%%%%%%%%%CORE NUM</p>
+<p></p>
+<p>% For fun, let's see how many cores there are in a road network. Vertices</p>
+<p>% in a 1-core in a road network have at least one path between them</p>
+<p>% (assuming the underlying network is connected). Vertices in a 2-core</p>
+<p>% have at least two paths between them. </p></font><font face="Courier New" size="2">
+<p>load(</p></font><font color="#a020f0" face="Courier New" size="2">'graphs/minnesota.mat'</font><font face="Courier New" size="2">);A=spones(A); </font><font color="#228b22" face="Courier New" size="2">% convert to unweighted<p></p></font><font face="Courier New" size="2">
+<p>Net = SFNG(2642+1000, 5, A);</p>
+<p>[cn csz]=core_numbers(A); cs=unique(cn);spy(A);</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">%[A,xy] = VxE_to_AdjacencyMatrix_and_XY_points(V,E);<p></p></font><font face="Courier New" size="2">
+<p>X = gursoy_atun_layout(A,</p></font><font color="#a020f0" face="Courier New" size="2">'topology'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'heart'</font><font face="Courier New" size="2">);<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">%X = kamada_kawai_spring_layout(A);%fruchterman_reingold_force_directed_layout(A);<p></p></font><font face="Courier New" size="2">
+<p>gplot(A,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p></p>
+<p>C_coeff=clustering_coefficients(A)</p>
+<p>hist(C_coeff,100);</p>
+<p></p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);</font><font color="#228b22" face="Courier New" size="2">%draw_dot(full(A));<p></p></font><font face="Courier New" size="2">
+<p>arrayfun(@(v,c) fprintf(</p></font><font color="#a020f0" face="Courier New" size="2">'core(%2i) = %4i\n'</font><font face="Courier New" size="2">,v,c),cs,csz(cs+1));<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% Now, you might complain that there are certain vertices in this graph</p>
+<p>% that simply chain a path in the road network so it draws correctly. The</p>
+<p>% following code removes all vertices of degree two and connects the</p>
+<p>% end-points of the degree two vertex directly. It applies this prodecure</p>
+<p>% iteratively until all the vertices of degree two are gone. At the end,</p>
+<p>% we compute the core nubmers again.</p></font><font face="Courier New" size="2">
+<p>d2v=find(sum(A,2)==2);</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>while</p></font><font face="Courier New" size="2"> ~isempty(d2v)<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">for</font><font face="Courier New" size="2"> v=d2v'<p></p>
+<p>l=find(A(:,v));A(l(1),v)=0;A(l(2),v)=0;A(v,l(1))=0;A(v,l(2))=0;</p>
+<p>A(l(1),l(2))=1;A(l(2),l(1))=1;</p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end<p></p></font><font face="Courier New" size="2">
+<p>d2v=find(sum(A,2)==2);</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>end</p></font><font face="Courier New" size="2">
+<p>max(core_numbers(A))</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%END BGL </p>
+<p></p>
+<p>%http://www.stanford.edu/~dgleich/demos/matlab/random_graphs/erdosreyni.html</p>
+<p>%Gerneating Erdos Reyni graphs</p></font><font face="Courier New" size="2">
+<p>clear </p></font><font color="#a020f0" face="Courier New" size="2">all<p></p></font><font face="Courier New" size="2">
+<p>n = 200;</p>
+<p>A = rand(n,n);</p>
+<p>A = triu(A,1);</p>
+<p>p=log(n)/n-1/(n^2);</p></font><font color="#228b22" face="Courier New" size="2">%.02;%<p></p></font><font face="Courier New" size="2">
+<p>thres_conn=log(n)/n;</p>
+<p>A = A + A';</p>
+<p>G = A &lt; p;</p>
+<p>thres_giant = 1/(n-1);</p>
+<p>[x y] = draw_dot(G&lt;thres_giant);</p>
+<p>gplot(A&lt;thres_giant, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">) <p></p>
+<p>[x y] = draw_dot(G&lt;thres_conn);</p>
+<p>gplot(G&lt;thres_conn, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</p>
+<p></p>
+<p></p></font><font face="Courier New" size="2">
+<p>n = 80;</p>
+<p>V = 10*rand(n,10);</p></font><font color="#228b22" face="Courier New" size="2">%E_r=rand(n,2);E_r=E_r&gt;(.4,.4);<p></p></font><font face="Courier New" size="2">
+<p>E = ceil(n*rand(n,2));</p>
+<p>[A,xy] = VxE_to_AdjacencyMatrix_and_XY_points(V,E);</p>
+<p>spy(A);draw_dot(A);</p>
+<p>gplot(A, xy, </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">); <p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>n = 100;</p>
+<p>p = 0.05; </p>
+<p>G = rand(n,n) &lt; p;</p>
+<p>G = triu(G,1);</p>
+<p>G = G + G';</p>
+<p>thres_giant = 1/(n-1);</p>
+<p>[x y] = draw_dot(G);</p>
+<p>gplot(G, [x' y'], </p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">); <p></p>
+<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% CVX - GraphLaplacian Example </p>
+<p></p>
+<p>% Absolute algebraic connectivity. Find edge weights that maximize the algebraic</p>
+<p>% connectivity of the graph (i.e., the smallest positive eigenvalue of its Laplacian</p>
+<p>% matrix). The optimal value is called the absolute algebraic connectivity by Fielder.</p>
+<p>% </p>
+<p>% This generate a nice random graph - but no cut - n = 50; threshold = 0.2529;</p>
+<p>% rand('state',209);</p>
+<p>% xy = rand(n,2);</p>
+<p>%A is an adjacency matrix</p></font><font face="Courier New" size="2">
+<p>xy=zeros(N,2);</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>for</p></font><font face="Courier New" size="2"> i=1:N;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">for</font><font face="Courier New" size="2"> j=i:N;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">if</font><font face="Courier New" size="2"> A(i,j)&gt;0;<p></p>
+<p>xy(i,1)=i;</p>
+<p>xy(i,2)=j;</p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% angle = 10*pi/180;</p>
+<p>% Rotate = [ cos(angle) sin(angle); -sin(angle) cos(angle) ];</p>
+<p>% xy = (Rotate*xy')';</p>
+<p>% </p>
+<p>% Dist = zeros(n,n);</p>
+<p>% for i=1:(n-1);</p>
+<p>% for j=i+1:n;</p>
+<p>% Dist(i,j) = norm( xy(i,:) - xy(j,:) );</p>
+<p>% end;</p>
+<p>% end;</p>
+<p>% Dist = Dist + Dist';</p>
+<p>% Ad = Dist &lt; threshold;</p>
+<p>% Ad = Ad - eye(n);</p>
+<p>% m = sum(sum(Ad))/2;</p>
+<p>% </p>
+<p>% % find the incidence matrix</p>
+<p>% A = zeros(n,m);</p>
+<p>% l = 0;</p>
+<p>% for i=1:(n-1);</p>
+<p>% for j=i+1:n;</p>
+<p>% if Ad(i,j)&gt;0.5</p>
+<p>% l = l + 1;</p>
+<p>% A(i,l) = 1;</p>
+<p>% A(j,l) = -1;</p>
+<p>% end;</p>
+<p>% end;</p>
+<p>% end;</p>
+<p>% A = sparse(A);</p>
+<p></p>
+<p>% Compute edge weights: some optimal, some based on heuristics</p></font><font face="Courier New" size="2">
+<p>[n,m] = size(A);</p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Find xy</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></font><font face="Courier New" size="2">
+<p>[ w_fdla ] = fdla(sparse(A));</p>
+<p>[ w_fmmc ] = fmmc(A);</p>
+<p>[ w_md ] = max_deg(A);</p>
+<p>[ w_bc ] = best_const(A);</p>
+<p>[ w_mh ] = mh(A);</p>
+<p></p>
+<p>tau_fdla = 1/log(1/rho_fdla);</p>
+<p>tau_fmmc = 1/log(1/rho_fmmc);</p>
+<p>tau_md = 1/log(1/rho_md);</p>
+<p>tau_bc = 1/log(1/rho_bc);</p>
+<p>tau_mh = 1/log(1/rho_mh);</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% Plot results</p></font><font face="Courier New" size="2">
+<p>figure(1), clf</p>
+<p>plotgraph(A,xy,w_fdla);</p>
+<p>text(0.55,1.05,</p></font><font color="#a020f0" face="Courier New" size="2">'FDLA optimal weights'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p>figure(2), clf</p>
+<p>plotgraph(A,xy,w_fmmc);</p>
+<p>text(0.55,1.05,</p></font><font color="#a020f0" face="Courier New" size="2">'FMMC optimal weights'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p>figure(3), clf</p>
+<p>plotgraph(A,xy,w_md);</p>
+<p>text(0.5,1.05,</p></font><font color="#a020f0" face="Courier New" size="2">'Max degree optimal weights'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p>figure(4), clf</p>
+<p>plotgraph(A,xy,w_bc);</p>
+<p>text(0.5,1.05,</p></font><font color="#a020f0" face="Courier New" size="2">'Best constant optimal weights'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p>figure(5), clf</p>
+<p>plotgraph(A,xy,w_mh);</p>
+<p>text(0.46,1.05,</p></font><font color="#a020f0" face="Courier New" size="2">'Metropolis-Hastings optimal weights'</font><font face="Courier New" size="2">)<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%$%%%%%%%%%%%%%%%%%%%%%%%% From Matlab BGL</p>
+<p>%generate a second order finite difference approximation to the </p>
+<p>% Laplacian operator on a rectangular domain. This matrix does have a red-black ordering.</p>
+<p>% n is the number of points used to discretize each dimension. </p>
+<p>% N is the total number rows and columns in the matrix/graph.</p></font><font face="Courier New" size="2">
+<p>n = 12;</p>
+<p>N = n*n;</p>
+<p>A = delsq(numgrid(</p></font><font color="#a020f0" face="Courier New" size="2">'S'</font><font face="Courier New" size="2">,n+2));<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%First, we compute a breadth first search on the graph and store the distance </p>
+<p>% each vertex is from the root. Because we really do not care, we'll choose </p>
+<p>% vertex 1 (row 1) of the matrix as the root vertex.</p></font><font face="Courier New" size="2">
+<p>d = bfs(A,1);</p>
+<p>d_even = find(mod(d,2) == 0);</p>
+<p>d_odd = find(mod(d,2) == 1);</p></font><font color="#228b22" face="Courier New" size="2">%ptp =d_odd * d_even';<p></p>
+<p>%To find the red-black ordering for an arbitrary matrix </p>
+<p>% (if we do not know it analytically) is easy using MatlabBGL.</p>
+<p>% The key idea is to realize that a red-black ordering is </p>
+<p>% equivalent with the partition of vertices in a bipartite graph. </p>
+<p>% Once we see the problem in this light, we can quickly come up </p>
+<p>% with an algorithm that yields a potential red-black ordering.</p>
+<p>% We begin by picking an arbitrary vertex and look at how far a </p>
+<p>% breadth first search goes at every step. To find the bipartition, </p>
+<p>% we look at all vertices which are an even distance from the root </p>
+<p>% and all the vertices which are an odd distance from the root. </p>
+<p>% If the matrix has a red-black ordering or is a bipartite graph, </p>
+<p>% this algorithm will find it.</p>
+<p>% Implementing this algorithm is trivial using the MatlabBGL library. </p>
+<p>% First, we compute a breadth first search on the graph and store the </p>
+<p>% distance each vertex is from the root. Because we really do not care, </p>
+<p>% we'll choose vertex 1 (row 1) of the matrix as the root vertex. </p></font><font face="Courier New" size="2">
+<p>p = [d_odd' d_even'];</p>
+<p>spy(A(p,p) - diag(diag(A(p,p))));</p>
+<p>hold </p></font><font color="#a020f0" face="Courier New" size="2">on</font><font face="Courier New" size="2">;<p></p>
+<p>plot([size(A,2)/2 size(A,2)/2],[0 size(A,1)], </p></font><font color="#a020f0" face="Courier New" size="2">'k-'</font><font face="Courier New" size="2">);<p></p>
+<p>plot([0 size(A,2)],[size(A,1)/2 size(A,1)/2], </p></font><font color="#a020f0" face="Courier New" size="2">'k-'</font><font face="Courier New" size="2">);<p></p>
+<p>hold </p></font><font color="#a020f0" face="Courier New" size="2">off</font><font face="Courier New" size="2">;<p></p>
+<p>B=full(A);</p>
+<p></p>
+<p>C=zeros(N,N);</p></font><font color="#0000ff" face="Courier New" size="2">
+<p>for</p></font><font face="Courier New" size="2"> i=1:(N);<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">for</font><font face="Courier New" size="2"> j=i+1:N;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">if</font><font face="Courier New" size="2"> B(i,j)&gt;=0<p></p>
+<p>C(i,j)=1;</p>
+<p>C(j,i)=1;</p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p>
+<p></p></font><font color="#0000ff" face="Courier New" size="2">end</font><font face="Courier New" size="2">;<p></p></font><font color="#0000ff" face="Courier New" size="2">
+<p>end</p></font><font face="Courier New" size="2">;<p></p>
+<p></p>
+<p>draw_dot(C);</p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%BOOST GRAPH LIB Examples</p>
+<p></p></font><font face="Courier New" size="2">
+<p>load </p></font><font color="#a020f0" face="Courier New" size="2">../graphs/max_flow_example.mat<p></p></font><font face="Courier New" size="2">
+<p>max_flow(A,1,8)</p>
+<p>[flow cut R F] = max_flow(A,1,8);</p>
+<p>draw_dot(A);</p>
+<p>full(R) </p>
+<p></p>
+<p>load </p></font><font color="#a020f0" face="Courier New" size="2">../graphs/bfs_example.mat<p></p></font><font face="Courier New" size="2">
+<p>[d dt pred] = bfs(A,2);</p>
+<p>[ignore order] = sort(dt);</p>
+<p>labels(order)</p>
+<p>treeplot(pred);</p>
+<p></p>
+<p></p>
+<p>load </p></font><font color="#a020f0" face="Courier New" size="2">../graphs/dfs_example.mat<p></p></font><font face="Courier New" size="2">
+<p>[d dt ft pred] = dfs(A,2);</p>
+<p>[ignore order] = sort(dt);</p>
+<p>labels(order)</p>
+<p>draw_dot(full(A));</p>
+<p></p>
+<p>load </p></font><font color="#a020f0" face="Courier New" size="2">graphs/clr-26-1.mat<p></p></font><font face="Courier New" size="2">
+<p>all_shortest_paths(A) ;B= full(A);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% [D,P]</p></font><font face="Courier New" size="2">
+<p>D = all_shortest_paths(A,struct(</p></font><font color="#a020f0" face="Courier New" size="2">'algname'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'johnson'</font><font face="Courier New" size="2">));<p></p>
+<p>draw_dot(full(D));</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%</p></font><font face="Courier New" size="2">
+<p>G1 = cycle_graph(9000,struct(</p></font><font color="#a020f0" face="Courier New" size="2">'directed'</font><font face="Courier New" size="2">,0));<p></p>
+<p>X1 = gursoy_atun_layout(G1,</p></font><font color="#a020f0" face="Courier New" size="2">'topology'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'heart'</font><font face="Courier New" size="2">);<p></p>
+<p>G2 = grid_graph(50,50);</p>
+<p>X2 = gursoy_atun_layout(G2,</p></font><font color="#a020f0" face="Courier New" size="2">'topology'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'square'</font><font face="Courier New" size="2">);<p></p>
+<p>G3 = grid_graph(50,50);</p>
+<p>X3 = gursoy_atun_layout(G3,</p></font><font color="#a020f0" face="Courier New" size="2">'topology'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'circle'</font><font face="Courier New" size="2">);<p></p>
+<p>subplot(1,3,1); gplot(G1,X1,</p></font><font color="#a020f0" face="Courier New" size="2">'k'</font><font face="Courier New" size="2">); subplot(1,3,2); gplot(G2,X2,</font><font color="#a020f0" face="Courier New" size="2">'k'</font><font face="Courier New" size="2">);<p></p>
+<p>subplot(1,3,3); gplot(G3,X3,</p></font><font color="#a020f0" face="Courier New" size="2">'k'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p></p>
+<p>As = cycle_graph(128,</p></font><font color="#a020f0" face="Courier New" size="2">'directed'</font><font face="Courier New" size="2">,1); </font><font color="#228b22" face="Courier New" size="2">% compute a 6 node cycle graph<p></p></font><font face="Courier New" size="2">
+<p>A = As; </p></font><font color="#228b22" face="Courier New" size="2">% set all the weights to be one initially<p></p></font><font face="Courier New" size="2">
+<p>A(2,3) = 0; A(3,2) = 0; </p></font><font color="#228b22" face="Courier New" size="2">% make one edge have zero weight<p></p></font><font face="Courier New" size="2">
+<p>fprintf(</p></font><font color="#a020f0" face="Courier New" size="2">'Edges\n'</font><font face="Courier New" size="2">);<p></p>
+<p>full(As)</p>
+<p>fprintf(</p></font><font color="#a020f0" face="Courier New" size="2">'Weights\n'</font><font face="Courier New" size="2">);<p></p>
+<p>full(A)</p>
+<p>X = kamada_kawai_spring_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% </p>
+<p>% Note that As is given as the graph in the following call, not A!</p></font><font face="Courier New" size="2">
+<p>[d pred] = shortest_paths(As,1,</p></font><font color="#a020f0" face="Courier New" size="2">'edge_weight'</font><font face="Courier New" size="2">,edge_weight_vector(As,A));<p></p>
+<p>d(3) </p></font><font color="#228b22" face="Courier New" size="2">% distance from vertex 1 to vertex 3 should be just 1!<p></p>
+<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(12,28);</p>
+<p>X = kamada_kawai_spring_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = grid_graph(6,5);</p>
+<p>X = fruchterman_reingold_force_directed_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = grid_graph(2*ones(1,8)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p>
+<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,7)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,6)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,5)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,4)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,3)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,2)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(2*ones(1,1)); </p></font><font color="#228b22" face="Courier New" size="2">% compute 5d hypercube<p></p>
+<p></p>
+<p></p></font><font face="Courier New" size="2">
+<p>G = grid_graph(6,5);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% A grid in the xy plane is a planar graph.</p></font><font face="Courier New" size="2">
+<p>G = grid_graph(6,5);</p>
+<p>is_planar = boyer_myrvold_planarity_test(G)</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>% Recall that K_5 (the clique on 5 vertices) is not a planar graph. Let's</p>
+<p>% see what happens.</p></font><font face="Courier New" size="2">
+<p>G = clique_graph(1);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(2);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(3);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(4);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(5);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(6);</p>
+<p>X = gursoy_atun_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>G = clique_graph(15);</p>
+<p>X = fruchterman_reingold_force_directed_layout(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">);<p></p>
+<p></p>
+<p>is_planar = test_planar_graph(K5) </p></font><font color="#228b22" face="Courier New" size="2">% helpful wrapper<p></p>
+<p></p>
+<p>% We can also draw planar graphs</p></font><font face="Courier New" size="2">
+<p>G = grid_graph(6,5);</p>
+<p>X = chrobak_payne_straight_line_drawing(G);</p>
+<p>gplot(G,X,</p></font><font color="#a020f0" face="Courier New" size="2">'.-'</font><font face="Courier New" size="2">); </font><font color="#228b22" face="Courier New" size="2">% it looks a little different!<p></p>
+<p>% New option syntax</p>
+<p>% You probably noticed that the "struct" command that permeated MatlabBGL</p>
+<p>% calls before is gone in these examples. We've moved to a new option</p>
+<p>% syntax that gives you the _choice_ between the MatlabBGL struct style</p>
+<p>% arguments and a list of key-value pairs</p>
+<p></p>
+<p>% We'll look at spanning trees on the clique graph with 5 vertices. </p>
+<p>% Using Prim's algorithm, the spanning tree we get depends on the root. We</p>
+<p>% always get a star graph rooted at the vertex we pick as the root.</p></font><font face="Courier New" size="2">
+<p>G = clique_graph(5);</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</p></font><font face="Courier New" size="2">
+<p>x1=j;x2=x1(:,:,1)/3+x1(:,:,2)/3+x1(:,:,3)/3;x3=double(x2)/255;</p>
+<p>load </p></font><font color="#a020f0" face="Courier New" size="2">earth</font><font face="Courier New" size="2"> </font><font color="#228b22" face="Courier New" size="2">% Load image data, X, and colormap, map<p></p></font><font face="Courier New" size="2">
+<p>sphere; h = findobj(</p></font><font color="#a020f0" face="Courier New" size="2">'Type'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'surface'</font><font face="Courier New" size="2">);<p></p>
+<p>hemisphere = [ones(789,931/2),</p></font><font color="#0000ff" face="Courier New" size="2">...</font><font color="#228b22" face="Courier New" size="2"> <p></p></font><font face="Courier New" size="2">
+<p>x3,</p></font><font color="#0000ff" face="Courier New" size="2">...</font><font color="#228b22" face="Courier New" size="2"> <p></p></font><font face="Courier New" size="2">
+<p>ones(789,931/2)];</p>
+<p>set(h,</p></font><font color="#a020f0" face="Courier New" size="2">'CData'</font><font face="Courier New" size="2">,flipud(hemisphere),</font><font color="#a020f0" face="Courier New" size="2">'FaceColor'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'texturemap'</font><font face="Courier New" size="2">)<p></p>
+<p>colormap(gray)</p>
+<p>axis </p></font><font color="#a020f0" face="Courier New" size="2">equal<p></p></font><font face="Courier New" size="2">
+<p>view([90 0])</p>
+<p>set(gca,</p></font><font color="#a020f0" face="Courier New" size="2">'CameraViewAngleMode'</font><font face="Courier New" size="2">,</font><font color="#a020f0" face="Courier New" size="2">'manual'</font><font face="Courier New" size="2">)<p></p>
+<p>view([65 30])</p>
+<p></p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Differential Calculus on a Matrix</p></font><font face="Courier New" size="2">
+<p>n = 789;X=im2double(x1);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>%Ml = load_image('lena',256);</p></font><font face="Courier New" size="2">
+<p>X = load_image(</p></font><font color="#a020f0" face="Courier New" size="2">'1.jpg'</font><font face="Courier New" size="2">,256);X=x3;M=X;<p></p>
+<p>colormap(gray);</p>
+<p>M = rescale(crop(X,n));</p>
+<p>options.bound = </p></font><font color="#a020f0" face="Courier New" size="2">'per'</font><font face="Courier New" size="2">;<p></p>
+<p>T = compute_structure_tensor(M,1.5,8);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% Display the tensor fields. The color is proportional to the size of the tensor.</p></font><font face="Courier New" size="2">
+<p>clf;</p>
+<p>options.sub = 5;</p>
+<p>plot_tensor_field(T, M, options);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% initial flow</p></font><font face="Courier New" size="2">
+<p>v = perform_blurring(randn(n,n,2), 40, options);</p>
+<p>[tmp,v] = compute_hodge_decompositon(v,options);</p>
+<p>v = perform_vf_normalization(v);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% options for the PDE solver</p></font><font face="Courier New" size="2">
+<p>dt = .3;</p>
+<p>options.viscosity = 2*dt; </p></font><font color="#228b22" face="Courier New" size="2">% diffusion per frame<p></p></font><font face="Courier New" size="2">
+<p>options.advspeed = 1*dt; </p></font><font color="#228b22" face="Courier New" size="2">% advection per frame<p></p></font><font face="Courier New" size="2">
+<p>options.viscosity_texture = .3*dt; </p></font><font color="#228b22" face="Courier New" size="2">% diffusion of the texture<p></p></font><font face="Courier New" size="2">
+<p>options.texture_histo = </p></font><font color="#a020f0" face="Courier New" size="2">'linear'</font><font face="Courier New" size="2">; </font><font color="#228b22" face="Courier New" size="2">% fix the contrast<p></p></font><font face="Courier New" size="2">
+<p>options.display = 0;</p>
+<p>options.niter_fluid = 100;</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% solve the PDE</p></font><font face="Courier New" size="2">
+<p>[vlist,A] = perform_fluid_dynamics(v,M,options);</p></font><font color="#228b22" face="Courier New" size="2">
+<p>% display</p></font><font face="Courier New" size="2">
+<p>sel = round( linspace(1,size(A,3),6) );</p>
+<p>B = mat2cell(A(:,:,sel),n,n,ones(6,1));</p>
+<p>clf;</p>
+<p>imageplot(B{1});</p>
+<p>imageplot(B{2});</p>
+<p>imageplot(B{3});</p>
+<p>imageplot(B{4});</p>
+<p>imageplot(B{5});</p>
+<p>imageplot(B{6});</p>
+<p>imageplot(B{1});</p>
+<p></p>
+<p></p></font></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-attachments" style="display:none" class="sites-canvas-bottom-no-items">
+<div id="sites-attachment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-attachment-inner" style="display:none;" class="sites-attachment-inner">
+<ul id="JOT_ATTACH_container">
+</ul>
+</div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments" style="display:none;" class="sites-canvas-bottom-no-items">
+<div id="sites-comment-wrapper" class="sites-canvas-bottom-panel-wrapper">
+<div jotId="sites-comment-inner" style="display:none;" class="sites-comment-inner">
+<div jotId="comments" class="sites-comments">
+<div id="_wuid_" jotId="template" class="sites-comment" style="display:none">
+<div><strong>_displayNameOrEmail_</strong> - _time_ - <a href="javascript:;" onClick="JOT_postEvent('removeComment', this, {wuid:'_wuid_'});">Remove</a></div>
+<p dir="_dir_">_text_</p>
+</div>
+</div>
+<form class="sites-clear">
+<textarea onpropertychange="JOT_setTextDir(this)" oninput="JOT_setTextDir(this)" dir="" id="sites-comment-textarea" jotId="textarea"></textarea>
+<div id="sites-comment-submit" style="clear: both;">
+<div class="goog-inline-block goog-button goog-button-base sites-convert-button   "><div class="goog-inline-block goog-button-base-outer-box TOP"><div class="goog-inline-block goog-button-base-inner-box"><div class="goog-button-base-pos"><div class="goog-button-base-top-shadow"> </div><div class="goog-button-base-content " style="" onclick="JOT_postEvent('addComment', this); return false;"><span id="-label">Add comment</span></div></div></div></div></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+<p>
+            
+                
+                
+                     
+                    <a href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=https://sites.google.com/site/bcampbellthesis/matlab" class="sites-system-link">Sign in</a>
+                  
+                
+                     
+                    <a href="/site/bcampbellthesis/system/app/pages/recentChanges" rel="nofollow" class="sites-system-link">Recent Site Activity</a>
+                  
+                
+                 
+                <a href="javascript:void(window.open('http://www.google.com/sites/help/intl/en/terms.html'))" class="sites-system-link">Terms</a>
+                 
+                <a href="/site/bcampbellthesis/system/app/pages/reportAbuse?src=/matlab" rel="nofollow" target="_blank" class="sites-system-link">Report Abuse</a>
+                
+                     
+                    <a href="javascript:;" onclick="window.open(webspace.printUrl)" class="sites-system-link">Print page</a>
+                  
+                
+                 | 
+              
+             
+            <b class="powered-by">Powered by <a href="http://sites.google.com">Google Sites</a></b>
+</p>
+
+</div>
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/72404e/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new sites.Searchbox('sites-searchbox-search-button', true);
+          searchBox.initListeners();
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Theory", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("7258825109972156", "Applications", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_7258825109972156');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2698067733852309", "Skills", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2698067733852309');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('https://sites.google.com/site/bcampbellthesis/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+1,mitchell
+2,bhaghesh
+3,philhall
+4,gid
+5,barstow
+6,poulter
+7,michael
+8,sarahm
+9,pldms
+10,keiren
+11,seals
+12,dajobe
+13,craig
+14,libby
+15,louise
+16,jane
+17,martin
+18,lotta
+19,chaals
+20,danbri
+21,ruth
+22,liz
+23,william
+24,rael
+25,edd
+26,aaron
+27,mags
+28,jang
+29,sbp
+30,gregory
+31,kateb
+32,emiller
+33,connolly
+34,matola
+35,weibel
+36,swick
+37,baker
+# edges for person 1 named mitchell. 
+1,6
+# edges for person 2 named bhaghesh. 
+2,6
+# edges for person 3 named philhall. 
+3,6
+# edges for person 4 named gid. 
+4,6
+# edges for person 5 named barstow. 
+5,20
+# edges for person 6 named poulter. 
+6,1
+6,2
+6,3
+6,4
+6,9
+6,11
+6,12
+6,13
+6,14
+6,20
+# edges for person 7 named michael. 
+7,12
+7,32
+# edges for person 8 named sarahm. 
+8,9
+8,14
+# edges for person 9 named pldms. 
+9,6
+9,8
+9,13
+9,14
+9,20
+# edges for person 10 named keiren. 
+# edges for person 11 named seals. 
+11,6
+11,15
+11,16
+11,17
+# edges for person 12 named dajobe. 
+12,6
+12,7
+12,20
+12,32
+# edges for person 13 named craig. 
+13,6
+13,9
+13,14
+13,20
+13,22
+# edges for person 14 named libby. 
+14,6
+14,8
+14,9
+14,13
+14,15
+14,19
+14,20
+14,23
+14,30
+14,31
+# edges for person 15 named louise. 
+15,11
+15,14
+# edges for person 16 named jane. 
+16,11
+# edges for person 17 named martin. 
+17,11
+17,18
+17,20
+# edges for person 18 named lotta. 
+18,17
+# edges for person 19 named chaals. 
+19,14
+19,20
+19,23
+19,30
+# edges for person 20 named danbri. 
+20,5
+20,6
+20,9
+20,12
+20,13
+20,14
+20,17
+20,19
+20,24
+20,25
+20,26
+20,27
+20,28
+20,31
+20,32
+20,33
+20,34
+# edges for person 21 named ruth. 
+21,28
+# edges for person 22 named liz. 
+22,13
+# edges for person 23 named william. 
+23,14
+23,19
+23,29
+23,30
+# edges for person 24 named rael. 
+24,20
+24,25
+24,26
+# edges for person 25 named edd. 
+25,20
+25,24
+25,26
+# edges for person 26 named aaron. 
+26,20
+26,24
+26,25
+26,29
+26,32
+26,33
+# edges for person 27 named mags. 
+27,20
+# edges for person 28 named jang. 
+28,20
+28,21
+# edges for person 29 named sbp. 
+29,23
+29,26
+# edges for person 30 named gregory. 
+30,14
+30,19
+30,23
+# edges for person 31 named kateb. 
+31,14
+31,20
+# edges for person 32 named emiller. 
+32,7
+32,12
+32,20
+32,26
+32,33
+32,34
+32,35
+32,36
+32,37
+# edges for person 33 named connolly. 
+33,20
+33,26
+33,32
+# edges for person 34 named matola. 
+34,20
+34,32
+# edges for person 35 named weibel. 
+35,32
+# edges for person 36 named swick. 
+36,32
+# edges for person 37 named baker. 
+37,32
+
