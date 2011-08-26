@@ -1,6 +1,22 @@
 rdfweb;
 
+
+# This script runs through a small affinity matrix of people-to-people links, generates new subsets by removing arbitrary connections.
+# Then we draw with graphviz (see nearby files), and explore via graph laplacian representation and its eigenvectors/values.
+# 
+# Bug?: eig() isn't returning sorted and we should be sorting the eigenvectors by the eigenvalues so we can e.g. find the
+# second smallest eigenvalue and from that the corresponding vector?
+
+# Refs:
 # http://en.wikipedia.org/wiki/Laplacian_matrix
+# http://en.wikipedia.org/wiki/Algebraic_connectivity#The_Fiedler_vector aka http://en.wikipedia.org/wiki/Fiedler_vector
+# 
+# "The algebraic connectivity of a graph G is the second-smallest eigenvalue of the Laplacian matrix of G.[1] 
+# This eigenvalue is greater than 0 if and only if G is a connected graph. This is a corollary to the fact that the number 
+# of times 0 appears as an eigenvalue in the Laplacian is the number of connected components in the graph. The magnitude 
+# of this value reflects how well connected the overall graph is, and has been used in analysing the synchronizability of networks."
+
+
 # 'Adjacency matrix from early FOAF crawl, pruned of links, 0.7 probability of link drop when each end has 2+ links. Re-ordered using 2nd smallest eigenvector of the graph laplacian.'
 
 # todo: install ghostscript (on osx on this version of Octave, at least; otherwise jpeg writer fails)
