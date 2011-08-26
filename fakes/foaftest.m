@@ -1,4 +1,3 @@
-
 rdfweb;
 
 # http://en.wikipedia.org/wiki/Laplacian_matrix
@@ -14,7 +13,9 @@ more off;
 # draw_dot(R1, N1);
   fprintf(fid, ["<h2>Link Graph</h2>\n"] );
 
-for (K = 1:10);
+RUNS=1
+
+for (K = 1:RUNS);
 
   figure();
   # first figure
@@ -31,8 +32,17 @@ for (K = 1:10);
 
   figure();
   L = laplacian(R2);
+
   [V D] = eig(L);
-  D(2,2)
+
+#  [V D] = eigsort(L);
+
+
+  # http://octave.1599824.n4.nabble.com/eig-function-td1609306.html
+
+
+  # http://www.cs.purdue.edu/homes/dgleich/demos/matlab/spectral/spectral.html
+  # D(2,2);
   [ignore p] = sort(V(:,2));
   spy(R2(p,p));
   title(sprintf("Reduced rdfweb.org fig %d(b) - sorted adjacency matrix", K));  # draw matrix chart
@@ -53,7 +63,8 @@ for (K = 1:10);
 
   #subplot(223)
   figure();
-  [foo,neworder] = sort(V(:,2));
+  subplot(211);
+ [foo,neworder] = sort(V(:,2));
 #  plot(sort(V(:,2)), '.-');
   plot([foo],'.-');
   title(sprintf("Reduced rdfweb.org fig %d(c) - 2nd smallest eigenvector, sorted values", K));  # draw matrix chart
@@ -64,12 +75,23 @@ for (K = 1:10);
 #    text(1,J,NAME);
     text( J,foo(J),NAME, 'Rotation', -90);
   end
+
+  subplot(212);
+  #  bar(1:37,sort(diag(D)))
+  bar(1:37,diag(D))
+  zeroish = sum(sort(diag(D))(1:5) < 0.00001);
+  # hold on;
+  title( sprintf("No. of zero-ish eigenvals: %i", zeroish) );
+  # sort(diag(D))(1:5)
+
+
   fig_no = gcf;
   fn=sprintf("tmp/_foaf_spectral_%i.jpg",fig_no);
   saveas(fig_no, fn , 'jpg' );
   fprintf(fid, [ sprintf("<img width='600' src='../%s' />\n",fn)  ] );
   
   fprintf(fid, [ sprintf("<hr/>\n\n")] );
+
 
 end
 
