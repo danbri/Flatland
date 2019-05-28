@@ -1,4 +1,9 @@
 
+Ancient experiments - probably nothing of interest to most people
+
+STATUS: OBSOLETE
+
+
 Some Octave (aka GNU's Matlab implementation) scripts
 
 Our data is from the subset of archive.org-to-dbpedia associations described at http://danbri.org/words/2011/02/01/658
@@ -65,14 +70,3 @@ octave-3.2.3:7> size(V)
 ans =
 
    4761   4761
-
-
-
-BUGS:
-
-16:45 danbri: hmm is your one missing the row for prog=10?
-16:45 danbri: i'm one film short
-16:46 libby: yeah apears to be
-16:46 danbri: try  egrep '^10' data.txt  
-
-
